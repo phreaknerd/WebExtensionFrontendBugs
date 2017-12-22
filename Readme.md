@@ -1,6 +1,6 @@
-#  Some tests for bugs in the FF WebExtensions
+# Some tests for bugs in the FF WebExtensions
 
-##Testing popups: 
+## Testing popups: 
 
 Seems that FF 57 is not rendering popups every-time, resulting in a blank popup.
 
