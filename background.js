@@ -8,6 +8,7 @@ var popupsettings = {
 
 function openPopup() {
   popup_win = browser.windows.create(popupsettings);
+  //popup_win.document.getElementById("inputfield").focus();
 }
 
 browser.contextMenus.create({

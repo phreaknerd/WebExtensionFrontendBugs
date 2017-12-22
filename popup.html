@@ -9,7 +9,13 @@
 
 <body>
   <p>This is a test-popup.</p>
-  <script src="popup.js"></script>
+  <form>
+    <label for="inputfield1">Inputfield 1</label><input name="inputfield1" id="inputfield1" value="no focus"/><br/>
+    <label for="inputfield2">Inputfield 2</label><input name="inputfield2" id="inputfield2" value="should have focus" autofocus/>
+    <br/><br/>
+    <a href="#" id="changefocuslink">Change focus to Inputfield 1</a>
+</form>
+<script src="popup.js"></script>
 </body>
 
 </html>
